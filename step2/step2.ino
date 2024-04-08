@@ -291,7 +291,6 @@ if(EchoAvanti<8){
         if(muroOvest){
           servoCam.write(180);
           delay(1000);
-          continue;
           }
         }
 
@@ -299,8 +298,8 @@ if(EchoAvanti<8){
         if(muroNord){
           servoCam.write(90);
           delay(1000);
-          continue;
           }
+          continue;
         
         }
 
@@ -308,7 +307,6 @@ if(EchoAvanti<8){
         if(muroEst){
           servoCam.write(0);
           delay(1000);
-          continue;
           }
         
         }
