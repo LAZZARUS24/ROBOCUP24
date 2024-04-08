@@ -292,6 +292,7 @@ if(EchoAvanti<8){
           servoCam.write(180);
           delay(1000);
           }
+          continue;
         }
 
       if(i==2){
@@ -308,6 +309,7 @@ if(EchoAvanti<8){
           servoCam.write(0);
           delay(1000);
           }
+            continue;
         
         }
         
